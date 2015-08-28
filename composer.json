@@ -1,0 +1,23 @@
+{
+    "name": "jamieynonan/base-plugin-wp",
+    "description": "basic structure to create WordPress plugins",
+    "keywords": ["structure","wordpress","plugin"],
+    "type": "project",
+    "homepage": "https://github.com/JamieYnonan/base-plugin-wp",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Jamie Ynonan",
+            "email": "jamiea31@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 5.4",
+        "jamieynonan/core-plugin-wp": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "PluginWp\\": ""
+        }
+    }
+}
