@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">= 5.4",
-        "jamieynonan/core-plugin-wp": "@dev"
+        "jamieynonan/core-plugin-wp": "0.*"
     },
     "autoload": {
         "psr-4": {
